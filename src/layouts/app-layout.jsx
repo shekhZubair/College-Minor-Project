@@ -1,0 +1,19 @@
+import Header from "@/components/header";
+import { Outlet } from "react-router-dom";
+
+const AppLayout = () => {
+    return (
+        <div>
+            <div className="grid-background"></div>
+            <main className="min-h-screen container px-6">
+                <Header />
+                <Outlet />
+            </main>
+            <div className="p-12 text-center bg-neutral-800 mt-10">
+                Made with 💗 by Zubair
+            </div>
+        </div>
+    );
+};
+
+export default AppLayout;

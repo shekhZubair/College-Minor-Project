@@ -48,7 +48,7 @@ const Onboarding = () => {
                     Candidate
                 </Button>
                 <Button
-                    variant="destructive"
+                    variant="red"
                     className="h-36 text-2xl"
                     onClick={() => handleRoleSelection("recruiter")}
                 >

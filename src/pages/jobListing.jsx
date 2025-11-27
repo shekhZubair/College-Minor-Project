@@ -131,7 +131,7 @@ const JobListing = () => {
                 </Select>
                 <Button
                     className="sm:w-1/2"
-                    variant="destructive"
+                    variant="red"
                     onClick={clearFilters}
                 >
                     Clear Filters

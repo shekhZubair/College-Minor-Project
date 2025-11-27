@@ -88,7 +88,7 @@ const AddCompanyDrawer = ({ fetchCompanies }) => {
                     <Button
                         type="button"
                         onClick={handleSubmit(onSubmit)}
-                        variant="destructive"
+                        variant="red"
                         className="w-40"
                     >
                         Add
